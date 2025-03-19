@@ -1,4 +1,4 @@
-package com.fiveis.practicecamera.ui.theme
+package com.fiveis.practicecamera.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
