@@ -51,4 +51,6 @@ room = "2.6.1"
 secrets = "2.0.1"
 # @keep
 version-catalog-update = "0.8.5"
+# CameraX
+camerax = "1.4.1"
 ```
