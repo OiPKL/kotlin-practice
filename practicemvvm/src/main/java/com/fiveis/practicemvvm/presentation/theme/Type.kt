@@ -1,4 +1,4 @@
-package com.fiveis.practicemvvm.ui.theme
+package com.fiveis.practicemvvm.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
