@@ -55,7 +55,6 @@ dependencies {
 
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material3.adaptive.navigationSuite)
-    implementation("com.google.accompanist:accompanist-adaptive:0.26.2-beta")
 
     implementation(libs.androidx.compose.materialWindow)
     implementation(libs.androidx.compose.material.iconsExtended)
@@ -78,16 +77,16 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test)
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
 
-    // OkHttp 의존성 (버전 4.12.0)
+    debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // OkHttp
     implementation(libs.okhttp3)
     implementation(libs.okhttp.logging)
 
-    // Retrofit2 및 Gson 의존성 추가
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // Retrofit2
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 
-    // DataStore 의존성 추가
-    implementation("androidx.datastore:datastore-preferences:1.0.0")
-
-    debugImplementation(libs.androidx.compose.ui.test.manifest)
+    // DataStore
+    implementation(libs.datastore.preferences)
 }

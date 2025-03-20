@@ -55,7 +55,6 @@ dependencies {
 
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material3.adaptive.navigationSuite)
-    implementation("com.google.accompanist:accompanist-adaptive:0.26.2-beta")
 
     implementation(libs.androidx.compose.materialWindow)
     implementation(libs.androidx.compose.material.iconsExtended)
@@ -80,12 +79,15 @@ dependencies {
 
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
+    // CameraX
     implementation(libs.camerax.core)
     implementation(libs.camerax.camera2)
     implementation(libs.camerax.lifecycle)
     implementation(libs.camerax.video)
     implementation(libs.camerax.view)
-    implementation(libs.camerax.mlkit)
     implementation(libs.camerax.extensions)
-    implementation("com.google.mlkit:barcode-scanning:17.2.0")
+
+    // MlKit
+    implementation(libs.camerax.mlkit)
+    implementation(libs.barcode.scanning)
 }
