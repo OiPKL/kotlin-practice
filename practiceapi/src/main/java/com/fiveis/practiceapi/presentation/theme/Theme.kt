@@ -1,4 +1,4 @@
-package com.fiveis.practiceapi.ui.theme
+package com.fiveis.practiceapi.presentation.theme
 
 import android.app.Activity
 import android.os.Build
