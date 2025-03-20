@@ -1,24 +1,20 @@
 package com.fiveis.practicecamera.presentation.ui.qr
 
+import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.fiveis.practicecamera.domain.usecase.ProcessQrUseCase
 import com.fiveis.practicecamera.domain.repository.QrRepositoryImpl
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.launch
+import com.fiveis.practicecamera.domain.usecase.ProcessQrUseCase
 
 class QrViewModel : ViewModel() {
+    // 스캔 결과 문자열 상태
+    val qrResult = mutableStateOf("")
+
+    // Repository와 UseCase 초기화
     private val repository = QrRepositoryImpl()
     private val processQrUseCase = ProcessQrUseCase(repository)
 
-    private val _qrData = MutableStateFlow<String?>(null)
-    val qrData: StateFlow<String?> get() = _qrData
-
-    fun processQrCode(data: String) {
-        viewModelScope.launch {
-            processQrUseCase.execute(data)
-            _qrData.value = data
-        }
+    fun updateQr(qrString: String) {
+        processQrUseCase.process(qrString)
+        qrResult.value = qrString
     }
 }
