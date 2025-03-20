@@ -21,7 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "MyApp"
 include(":app")
-include(":practicejwt")
 include(":practicecamera")
 include(":practiceapi")
 include(":practicemvvm")
