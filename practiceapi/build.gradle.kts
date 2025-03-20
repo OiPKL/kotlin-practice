@@ -78,5 +78,13 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test)
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
 
+    // OkHttp 의존성 (버전 4.12.0)
+    implementation(libs.okhttp3)
+    implementation(libs.okhttp.logging)
+
+    // Retrofit2 및 Gson 의존성 추가
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 }
