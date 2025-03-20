@@ -2,55 +2,31 @@
 
 ```bash
 [versions]
-accompanist = "0.37.0"
 androidGradlePlugin = "8.8.1"
 androidx-activity-compose = "1.10.0"
-androidx-appcompat = "1.7.0"
 androidx-compose-bom = "2025.02.00"
-androidx-constraintlayout = "1.1.0"
-androidx-core-splashscreen = "1.0.1"
 androidx-corektx = "1.15.0"
-androidx-glance = "1.1.1"
-androidx-lifecycle = "2.8.2"
 androidx-lifecycle-compose = "2.8.7"
 androidx-lifecycle-runtime-compose = "2.8.7"
 androidx-navigation = "2.8.7"
-androidx-palette = "1.0.0"
 androidx-test = "1.6.1"
 androidx-test-espresso = "3.6.1"
 androidx-test-ext-junit = "1.2.1"
-androidx-test-ext-truth = "1.6.0"
-androidx-tv-foundation = "1.0.0-alpha11"
-androidx-tv-material = "1.0.0"
-androidx-wear-compose = "1.4.1"
 androidx-window = "1.3.0"
-androidxHiltNavigationCompose = "1.2.0"
-androix-test-uiautomator = "2.3.0"
-coil = "2.7.0"
-# @keep
 coroutines = "1.10.1"
-google-maps = "18.2.0"
 gradle-versions = "0.52.0"
-hilt = "2.55"
-hiltExt = "1.2.0"
-horologist = "0.6.22"
-jdkDesugar = "1.2.2"
 junit = "4.13.2"
 kotlin = "2.1.10"
 kotlinx-serialization-json = "1.7.3"
-kotlinx_immutable = "0.3.8"
-ksp = "2.1.10-1.0.30"
-maps-compose = "3.1.1"
-# @keep
-okhttp = "4.12.0"
-play-services-wearable = "18.1.0"
-robolectric = "4.14.1"
-roborazzi = "1.42.0"
-rome = "2.1.0"
-room = "2.6.1"
-secrets = "2.0.1"
-# @keep
 version-catalog-update = "0.8.5"
 # CameraX
 camerax = "1.4.1"
+# MlKit
+mlkit = "17.3.0"
+# OkHttp
+okhttp = "4.12.0"
+# Retrofit2
+retrofit = "2.9.0"
+# DataStore
+datastore = "1.1.3"
 ```
