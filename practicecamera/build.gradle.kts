@@ -87,4 +87,5 @@ dependencies {
     implementation(libs.camerax.view)
     implementation(libs.camerax.mlkit)
     implementation(libs.camerax.extensions)
+    implementation("com.google.mlkit:barcode-scanning:17.2.0")
 }
