@@ -29,4 +29,6 @@ okhttp = "4.12.0"
 retrofit = "2.9.0"
 # DataStore
 datastore = "1.1.3"
+# Gson
+gson = "2.10.1"
 ```
